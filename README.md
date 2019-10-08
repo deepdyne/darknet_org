@@ -1,3 +1,13 @@
+# MEMO
+
+https://pjreddie.com/darknet/yolov2/
+
+```
+$ wget https://pjreddie.com/media/files/yolov2-tiny-voc.weights
+$ darknet detector test cfg/voc.data cfg/yolov2-tiny-voc.cfg yolov2-tiny-voc.weights data/dog.jpg
+```
+
+
 ![Darknet Logo](http://pjreddie.com/media/files/darknet-black-small.png)
 
 # Darknet #
