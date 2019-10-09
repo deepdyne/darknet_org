@@ -1,5 +1,15 @@
 # MEMO
 
+```
+$ wget https://pjreddie.com/media/files/VOCtrainval_06-Nov-2007.tar
+$ tar xf VOCtrainval_06-Nov-2007.tar
+$ wget https://pjreddie.com/media/files/VOCtest_06-Nov-2007.tar
+$ tar xf VOCtest_06-Nov-2007.tar
+$ python voc_label.py
+$ cat 2007_train.txt 2007_val.txt  > train.txt
+$ cat train.txt | wc -l
+```
+
 https://pjreddie.com/darknet/yolov2/
 
 ```
