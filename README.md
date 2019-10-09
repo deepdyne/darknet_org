@@ -57,7 +57,7 @@ $ wget https://pjreddie.com/media/files/darknet19_448.conv.23
 execute training
 
 ```
-$ ./darknet detector train cfg/voc.data cfg/yolov2-voc.cfg darknet19_448.conv.23
+$ ./darknet detector train cfg/voc.data cfg/yolov2-tiny-voc.cfg darknet19_448.conv.23
 ```
 
 ref https://pjreddie.com/darknet/yolov2/
