@@ -1,5 +1,8 @@
 # MEMO
 
+
+TRAIN
+
 ```
 $ wget https://pjreddie.com/media/files/VOCtrainval_06-Nov-2007.tar
 $ tar xf VOCtrainval_06-Nov-2007.tar
@@ -11,6 +14,8 @@ $ cat train.txt | wc -l
 ```
 
 https://pjreddie.com/darknet/yolov2/
+
+Just testing
 
 ```
 $ wget https://pjreddie.com/media/files/yolov2-tiny-voc.weights
