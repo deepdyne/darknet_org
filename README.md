@@ -1,7 +1,23 @@
-# MEMO
+# Darknet
 
+# TRAIN env
 
-TRAIN
+clone
+
+```
+$ git clone https://github.com/mgoldchild/darkne://github.com/mgoldchild/darknet
+```
+
+```
+$ cat Makefile
+GPU=1
+CUDNN=1
+OPENCV=0
+OPENMP=1
+DEBUG=0
+```
+
+# TRAIN
 
 ```
 $ wget https://pjreddie.com/media/files/VOCtrainval_06-Nov-2007.tar
@@ -15,7 +31,7 @@ $ cat train.txt | wc -l
 
 https://pjreddie.com/darknet/yolov2/
 
-Just testing
+# Just testing
 
 ```
 $ wget https://pjreddie.com/media/files/yolov2-tiny-voc.weights
