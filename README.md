@@ -1,11 +1,11 @@
 # Darknet
 
-# TRAIN env
+# TRAIN on notebook instance
 
 clone repo
 
 ```
-$ git clone https://github.com/mgoldchild/darkne://github.com/mgoldchild/darknet
+$ git clone https://github.com/mgoldchild/darkne
 ```
 
 update compile opts
@@ -33,7 +33,7 @@ $ tar xf VOCtrainval_06-Nov-2007.tar
 $ wget https://pjreddie.com/media/files/VOCtest_06-Nov-2007.tar
 $ tar xf VOCtest_06-Nov-2007.tar
 $ python voc_label.py
-$ cat 2007_train.txt 2007_val.txt  > train.txt # this may not need.
+$ # cat 2007_train.txt 2007_val.txt > train.txt # this may not need.
 $ cat train.txt | wc -l
 ```
 
